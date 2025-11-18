@@ -4,7 +4,7 @@ const styles = {
   heroContainer: {
     width: "100%",
     height: "100vh",
-    backgroundImage: 'url("/assets/Hero.jpeg")',
+    backgroundImage: 'url("/assets/hero.jpeg")',
     backgroundSize: "cover",
     backgroundPosition: "center",
     display: "flex",
