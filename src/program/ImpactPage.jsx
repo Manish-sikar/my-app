@@ -92,7 +92,7 @@ const ImpactPage = () => {
         <h2 className="impact-heading">Our Festival Impact</h2>
 
         <div className="impact-image-box">
-          <img src="/assets/WhatsApp Image 2025-11-17 at 17.43.46.jpeg" alt="Our Footprints" />
+          <img src="/assets/Screenshot 2025-11-17 212653.png" alt="Our Footprints" />
         </div>
 
       
