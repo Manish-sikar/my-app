@@ -1,103 +1,90 @@
 import React from "react";
 
-const styles = {
-  heroContainer: {
-    width: "100%",
-    height: "100vh",
-    backgroundImage: 'url("/assets/hero.jpeg")',
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    paddingTop: "250px",
-    paddingLeft: "5%",
-    paddingRight: "5%",
-    boxSizing: "border-box",
-    backgroundColor: "rgba(255,255,255,0.55)",
-    backgroundBlendMode: "lighten",
-    position: "relative",
-  },
-
-  heroContent: {
-    textAlign: "center",
-    color: "#0E5C58",
-    maxWidth: "650px",
-  },
-
-  title: {
-    fontSize: "42px",
-    fontWeight: "800",
-    margin: 0,
-    lineHeight: 1.3,
-  },
-
-  subtitle: {
-    fontSize: "20px",
-    marginTop: "18px",
-    lineHeight: 1.5,
-    fontWeight: "500",
-  },
-
-  // ⭐ Left Corner Logo
-  logo: {
-    position: "absolute",
-    left: "40px",
-    top: "40px",
-    width: "180px",
-    height: "auto",
-  },
-};
-
 const Herosection = () => {
-  const isMobile = window.innerWidth <= 768;
-
-  const responsiveStyles = {
-    heroContainer: {
-      ...styles.heroContainer,
-      paddingTop: isMobile ? "110px" : "150px",
-    },
-
-    title: {
-      ...styles.title,
-      fontSize: isMobile ? "30px" : "42px",
-    },
-
-    subtitle: {
-      ...styles.subtitle,
-      fontSize: isMobile ? "16px" : "20px",
-    },
-
-    logo: {
-      ...styles.logo,
-      left: isMobile ? "15px" : "40px",
-      top: isMobile ? "15px" : "40px",
-      width: isMobile ? "120px" : "180px",
-    },
-  };
-
   return (
-    <div style={responsiveStyles.heroContainer}>
+    <>
+      <style>{`
+        .hero-container {
+          width: 100%;
+          height: 100vh; /* always full viewport height */
+          position: relative;
+          overflow: hidden;
+        }
 
-      {/* ⭐ Left Corner Logo */}
-      <img 
-        src="/assets/Saanjhi (2).png"
-        alt="Saanjhi Logo"
-        style={responsiveStyles.logo}
-      />
+        /* FULL BANNER IMAGE */
+        .hero-bg-img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;   /* full cover */
+          object-position: center; 
+        }
 
-      <div style={styles.heroContent}>
-        <h1 style={responsiveStyles.title}>
-          A CSR initiative by Petronet LNG <br />
-          with NHM Rajasthan & We Care
-        </h1>
+        /* Text overlay (optional) */
+        .hero-content {
+          position: relative;
+          z-index: 1;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          padding: 0 5%;
+          color: #0E5C58;
+        }
 
-        <p style={responsiveStyles.subtitle}>
-          A CSR initiative of Petronet LNG in association with the National
-          Health Mission (Rajasthan) and We Care.
-        </p>
+        .hero-title {
+          font-size: 42px;
+          font-weight: 800;
+          line-height: 1.3;
+        }
+
+        .hero-subtitle {
+          font-size: 20px;
+          margin-top: 18px;
+          font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+          .hero-container {
+            height: 100vh; /* full height on mobile */
+          }
+
+          .hero-title {
+            font-size: 26px;
+          }
+
+          .hero-subtitle {
+            font-size: 15px;
+          }
+        }
+      `}</style>
+
+      <div className="hero-container">
+
+        <img
+          src="/assets/DSC_4300.JPG"
+          alt="Hero Background"
+          className="hero-bg-img"
+        />
+
+        {/* Optional Text Overlay */}
+        {/* <div className="hero-content">
+          <h1 className="hero-title">
+            A CSR initiative by Petronet LNG <br />
+            with NHM Rajasthan & We Care
+          </h1>
+          <p className="hero-subtitle">
+            A CSR initiative of Petronet LNG in association with the National Health Mission (Rajasthan) and We Care.
+          </p>
+        </div> */}
+
       </div>
-    </div>
+    </>
   );
 };
 
