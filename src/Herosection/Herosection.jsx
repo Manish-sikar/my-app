@@ -14,46 +14,38 @@ const styles = {
     paddingLeft: "5%",
     paddingRight: "5%",
     boxSizing: "border-box",
+    backgroundColor: "rgba(255,255,255,0.55)",
+    backgroundBlendMode: "lighten",
+    position: "relative",
   },
 
   heroContent: {
     textAlign: "center",
-    color: "dark",
-    maxWidth: "550px",
+    color: "#0E5C58",
+    maxWidth: "650px",
   },
 
   title: {
-    fontSize: "48px",
+    fontSize: "42px",
     fontWeight: "800",
-    letterSpacing: "2px",
     margin: 0,
+    lineHeight: 1.3,
   },
 
   subtitle: {
     fontSize: "20px",
-    marginTop: "20px",
-    lineHeight: 1.4,
+    marginTop: "18px",
+    lineHeight: 1.5,
+    fontWeight: "500",
   },
 
-  buttonsWrapper: {
-    marginTop: "35px",
-    display: "flex",
-    justifyContent: "center", // Center button
-  },
-
-  button: {
-    padding: "12px 28px",
-    fontSize: "18px",
-    fontWeight: "600",
-    borderRadius: "8px",
-    border: "none",
-    cursor: "pointer",
-    transition: "0.3s",
-  },
-
-  btnPrimary: {
-    background: "#F97D63", // Orange
-    color: "white",
+  // ⭐ Left Corner Logo
+  logo: {
+    position: "absolute",
+    left: "40px",
+    top: "40px",
+    width: "180px",
+    height: "auto",
   },
 };
 
@@ -63,40 +55,47 @@ const Herosection = () => {
   const responsiveStyles = {
     heroContainer: {
       ...styles.heroContainer,
-      paddingTop: isMobile ? "110px" : "140px",
+      paddingTop: isMobile ? "110px" : "150px",
     },
 
     title: {
       ...styles.title,
-      fontSize: isMobile ? "36px" : "48px",
+      fontSize: isMobile ? "30px" : "42px",
     },
 
     subtitle: {
       ...styles.subtitle,
-      fontSize: isMobile ? "18px" : "20px",
+      fontSize: isMobile ? "16px" : "20px",
     },
-  };
 
-  // Hover state for the button
-  const handleHover = (e) => {
-    e.target.style.background = "#0E5C58"; // Blue on hover
-  };
-
-  const handleOut = (e) => {
-    e.target.style.background = "#FF8C42"; // back to Orange
+    logo: {
+      ...styles.logo,
+      left: isMobile ? "15px" : "40px",
+      top: isMobile ? "15px" : "40px",
+      width: isMobile ? "120px" : "180px",
+    },
   };
 
   return (
     <div style={responsiveStyles.heroContainer}>
+
+      {/* ⭐ Left Corner Logo */}
+      <img 
+        src="/assets/Saanjhi (2).png"
+        alt="Saanjhi Logo"
+        style={responsiveStyles.logo}
+      />
+
       <div style={styles.heroContent}>
-        <h1 style={responsiveStyles.title}> </h1>
+        <h1 style={responsiveStyles.title}>
+          A CSR initiative by Petronet LNG <br />
+          with NHM Rajasthan & We Care
+        </h1>
 
         <p style={responsiveStyles.subtitle}>
-     
+          A CSR initiative of Petronet LNG in association with the National
+          Health Mission (Rajasthan) and We Care.
         </p>
-
-        {/* CENTERED REGISTER BUTTON */}
-     
       </div>
     </div>
   );
