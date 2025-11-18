@@ -5,32 +5,32 @@ const Schedule = () => {
     {
       time: "08:30 – 08:45 AM",
       title: "Reporting Time",
-      desc: "Students report at the Registration Desk at the RIC Centre, outside Mini Audi 2.",
+      // desc: "Students report at the Registration Desk at the RIC Centre, outside Mini Audi 2.",
     },
     {
       time: "08:45 – 09:00 AM",
-      title: "Inaugural Session Seating",
+      title: "Inaugural Session ",
       desc: "Students settle down inside the auditorium. The heads of each school will ensure that students are seated quietly.",
     },
     {
       time: "09:00 – 09:02 AM",
       title: "Opening Remarks",
-      desc: "Opening Remarks by Renu Ma’am",
+      desc: "Opening Remarks by Ms.Renu Singh",
     },
     {
       time: "09:02 – 09:05 AM",
-      title: "About Saanjhi",
-      desc: "Apra Kuchhal shares about Saanjhi – The Mental Health Festival",
+      title: "About (Saanjhi)",
+      desc: "Ms.Apra Kuchhal , Mr.Sandeep Sethi , shares about Saanjhi – The Mental Health Festival",
     },
     {
       time: "09:05 – 09:10 AM",
       title: "Lamp Lighting & Prayer",
-      desc: "Lamp lighting, accompanied by a prayer by students of IIS School",
+      desc: "Lamp lighting, Lamp lighting Mr.Gajendra Singh, Pt.Vishwa Mohan Bhatt, Ms.Apra Kuchhal, Mr.Sandeep Sethi, Ms.Renu Singh.",
     },
     {
       time: "09:10 – 09:20 AM",
       title: "Stage Performance",
-      desc: "Skit by students of Palace School",
+      desc: "Registration on mental health and well-being for students of IIS School, Sitapura",
     },
     {
       time: "09:20 – 09:50 AM",
@@ -62,23 +62,23 @@ const Schedule = () => {
   const rightData = [
     {
       time: "08:30 – 08:45 AM",
-      title: "Reporting Time",
-      desc: "Students report at the Registration Desk at the RIC Centre, outside Mini Audi 2.",
+      title: "Welcome, Tea & Registration",
+      // desc: "Students report at the Registration Desk at the RIC Centre, outside Mini Audi 2.",
     },
     {
       time: "08:45 – 09:00 AM",
-      title: "Auditorium Settling",
+      title: "Auditorium ",
       desc: "Students settle down inside the auditorium. The heads of each school will ensure that students are seated quietly.",
     },
     {
       time: "09:00 – 09:02 AM",
       title: "Opening Remarks",
-      desc: "Opening Remarks by Renu Ma’am",
+      desc: "Opening Remarks by Ms.Renu Singh",
     },
     {
       time: "09:02 – 09:05 AM",
       title: "About Saanjhi",
-      desc: "Apra Kuchhal shares about Saanjhi – The Mental Health Festival",
+      desc: "Ms.Apra Kuchhal, Mr.Sandeep Sethi , shares about Saanjhi – The Mental Health Festival",
     },
     {
       time: "09:05 – 09:10 AM",
@@ -93,7 +93,7 @@ const Schedule = () => {
     {
       time: "09:20 – 09:27 AM",
       title: "Dance Performance",
-      desc: "Dance performance by students of Palace School",
+      desc: "Dance performance by students of Palace Orchestra Tagore School",
     },
     {
       time: "09:30 – 10:30 AM",
@@ -103,7 +103,7 @@ const Schedule = () => {
     {
       time: "10:30 – 10:40 AM",
       title: "Lamp Lighting",
-      desc: "Lamp lighting",
+      desc: "Lamp lighting, Lamp lighting Mr.Gajendra Singh, Pt.Vishwa Mohan Bhatt, Ms.Apra Kuchhal, Mr.Sandeep Sethi, Ms.Renu Singh.",
     },
     {
       time: "10:40 – 10:45 AM",
@@ -118,12 +118,12 @@ const Schedule = () => {
     {
       time: "11:30 – 11:40 AM",
       title: "Stage Performance",
-      desc: "Performance",
+      desc: "Registration on mental health and well-being for students of IIS School, Sitapura",
     },
     {
       time: "11:50 AM – 12:00 Noon",
       title: "Song Performance",
-      desc: "Song by IIS School",
+      desc: "Song by IIS, Shipra Path departure of students",
     },
     {
       time: "12:30 PM",
@@ -216,7 +216,7 @@ const Schedule = () => {
         }
       `}</style>
 
-      <h2 className="schedule-heading">EVENT SCHEDULE 18 To 19 November</h2>
+      <h2 className="schedule-heading">Reporting Time</h2>
 
       <div className="schedule-wrapper">
 
