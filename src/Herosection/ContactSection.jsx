@@ -118,7 +118,7 @@ const ContactSection = () => {
           <h2 className="title">RAJASTHAN INTERNATIONAL CENTRE</h2>
 
           <p className="subtitle">
-            18 & 19 November 2025 at <span>RIC, Jaipur</span>
+            18th & 19th November 2025 at <span>RIC, Jaipur</span>
           </p>
 
         <a href="mailto:wecarejaipur@gmail.com">
