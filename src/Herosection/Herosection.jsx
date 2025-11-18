@@ -4,7 +4,7 @@ const styles = {
   heroContainer: {
     width: "100%",
     height: "100vh",
-    backgroundImage: 'url("/assets/WhatsApp Image 2025-11-17 at 18.26.56.jpeg")',
+    backgroundImage: 'url("/assets/Hero.jpeg")',
     backgroundSize: "cover",
     backgroundPosition: "center",
     display: "flex",
