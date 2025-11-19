@@ -13,13 +13,13 @@ const Schedule = () => {
     },
     {
       time: "09:00 – 09:02 AM",
-      title: "Introductory",
+      title: "Introductory Remark",
       desc: "Opening Remarks by Ms. Renu Singh",
     },
     {
       time: "09:02 – 09:05 AM",
       title: "Opening Remarks",
-      desc: "Ms. Apra Kuchhal & Mr. Sandeep Sethi share about Saanjhi – The Mental Health Festival",
+      desc: "Ms. Apra Kuchhal & share about Saanjhi – The Mental Health Festival",
     },
     {
       time: "09:05 – 09:10 AM",
