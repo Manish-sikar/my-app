@@ -69,7 +69,7 @@ const Herosection = () => {
         <img
           src="/assets/DSC_4300.JPG"
           alt="Hero Background"
-          className="hero-bg-img"
+          className="hero.jpeg"
         />
 
         {/* Optional Text Overlay */}
