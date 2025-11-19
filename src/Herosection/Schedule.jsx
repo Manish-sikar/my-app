@@ -3,7 +3,7 @@ import React from "react";
 const Schedule = () => {
   const leftData = [
     { time: "08:30 – 08:45 AM", title: "Reporting Time" },
-    { time: "08:45 – 09:00 AM", title: "Registration & Tea" },
+    { time: "08:45 – 09:00 AM", title: "Registration & Tea", desc: "Students report at the Registration Desk at the RIC Centre, outside Mini Audi 2." },
     {
       time: "09:00 – 09:02 AM",
       title: "Introductory Remarks",
