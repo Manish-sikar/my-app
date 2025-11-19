@@ -65,14 +65,13 @@ const KnowMore = () => {
           <img src="/assets/Saanjhi (2).png" alt="Saanjhi" className="logo" />
 
           <p>
-            <strong>Saanjhi</strong> Saanjhi aims to create a nurturing environment where children can openly communicate their feelings and strengthen emotional resilience through therapeutic and artistic interventions. Throughout its journey, the festival has featured diverse experiences such as pet therapy, music therapy, cultural therapy, sports therapy, and several interactive modules designed to help children understand, release, and channel their emotions constructively.
+            <strong>Saanjhi</strong> Aims to create a nurturing environment where children can openly communicate their feelings and strengthen emotional resilience through therapeutic and artistic interventions. Throughout its journey, the festival has featured diverse experiences such as pet therapy, music therapy, cultural therapy, sports therapy, and several interactive modules designed to help children understand, release, and channel their emotions constructively.
           </p>
 
           <p>
             Through regular workshops, awareness sessions, mentorship programs, and cultural activities, 
             Saanjhi creates a platform where individuals can grow, learn, and uplift each other. 
-            The goal is to inspire confidence, improve skills, promote education, and build 
-            opportunities for sustainable progress.
+            The goal of Saanjhi is to strengthen mental well-being among young people by fostering awareness, encouraging dialogue, and equipping students, teachers, and parents with tools to navigate emotional challenges with confidence.
           </p>
 
           <p>
