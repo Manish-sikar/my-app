@@ -2,15 +2,8 @@ import React from "react";
 
 const Schedule = () => {
   const leftData = [
-    {
-      time: "08:30 – 08:45 AM",
-      title: "Reporting Time",
-    },
-    {
-      time: "08:45 – 09:00 AM",
-      title: "Registration & Tea",
-      // desc: "Students settle down inside the auditorium. The heads of each school will ensure that students are seated quietly.",
-    },
+    { time: "08:30 – 08:45 AM", title: "Reporting Time" },
+    { time: "08:45 – 09:00 AM", title: "Registration & Tea" },
     {
       time: "09:00 – 09:02 AM",
       title: "Introductory Remarks",
@@ -46,28 +39,13 @@ const Schedule = () => {
       title: "Stress & Anxiety Management",
       desc: "Session on “Tools to Manage Stress & Anxiety” by Ms. Riri Trivedi",
     },
-    {
-      time: "12:20 PM",
-      title: "Concluding Remarks",
-      desc: "Concluding Remarks",
-    },
-    {
-      time: "12:30 PM",
-      title: "Departure",
-      desc: "Departure of students",
-    },
+    { time: "12:20 PM", title: "Concluding Remarks", desc: "Concluding Remarks" },
+    { time: "12:30 PM", title: "Departure", desc: "Departure of students" },
   ];
 
   const rightData = [
-    {
-      time: "08:30 – 08:45 AM",
-      title: "Welcome Tea & Registration",
-    },
-    {
-      time: "08:45 – 09:00 AM",
-      title: "Registration & Tea",
-      desc: "Students settle down inside the auditorium. The heads of each school will ensure that students are seated quietly.",
-    },
+    { time: "08:30 – 08:45 AM", title: "Welcome Tea & Registration" },
+    { time: "08:45 – 09:00 AM", title: "Registration & Tea" },
     {
       time: "09:00 – 09:02 AM",
       title: "Opening Remarks",
@@ -123,11 +101,7 @@ const Schedule = () => {
       title: "Song Performance",
       desc: "Song by IIS, Shipra Path",
     },
-    {
-      time: "12:30 PM",
-      title: "Departure",
-      desc: "Departure of Students",
-    },
+    { time: "12:30 PM", title: "Departure", desc: "Departure of Students" },
   ];
 
   return (
@@ -137,7 +111,6 @@ const Schedule = () => {
           text-align: center;
           font-size: 42px;
           font-weight: 800;
-          letter-spacing: 1px;
           margin-top: 40px;
           color: #0E5C58;
         }
@@ -152,9 +125,14 @@ const Schedule = () => {
 
         .column {
           width: 32%;
-          display: flex;
-          flex-direction: column;
-          gap: 20px;
+        }
+
+        .day-heading {
+          text-align: center;
+          font-size: 26px;
+          font-weight: 700;
+          margin-bottom: 20px;
+          color: #F97D63;
         }
 
         .event-box {
@@ -162,6 +140,7 @@ const Schedule = () => {
           border-radius: 12px;
           background: white;
           border-left: 6px solid #F97D63;
+          margin-bottom: 20px;
         }
 
         .event-time {
@@ -182,6 +161,7 @@ const Schedule = () => {
           color: #444;
         }
 
+        /* Center strip */
         .center-strip {
           width: 10%;
           background: #F97D63;
@@ -201,24 +181,28 @@ const Schedule = () => {
             align-items: center;
           }
 
-          .column, .center-strip {
+          .column {
             width: 90%;
           }
 
           .center-strip {
+            width: 90%;
             writing-mode: horizontal-tb;
             transform: none;
-            font-size: 28px;
+            font-size: 26px;
             padding: 10px;
           }
         }
       `}</style>
 
-      <h2 className="schedule-heading">Schedule 18Th to 19Th November </h2>
+      <h2 className="schedule-heading">Schedule – 18 & 19 November</h2>
 
       <div className="schedule-wrapper">
 
+        {/* LEFT SIDE */}
         <div className="column">
+          <h3 className="day-heading">18 November</h3>
+
           {leftData.map((item, index) => (
             <div className="event-box" key={index}>
               <div className="event-time">{item.time}</div>
@@ -228,9 +212,13 @@ const Schedule = () => {
           ))}
         </div>
 
+        {/* CENTER STRIP */}
         <div className="center-strip">EVENT SCHEDULE</div>
 
+        {/* RIGHT SIDE */}
         <div className="column">
+          <h3 className="day-heading">19 November</h3>
+
           {rightData.map((item, index) => (
             <div className="event-box" key={index}>
               <div className="event-time">{item.time}</div>
