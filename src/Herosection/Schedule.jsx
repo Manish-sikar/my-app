@@ -7,7 +7,7 @@ const Schedule = () => {
     {
       time: "09:00 – 09:02 AM",
       title: "Introductory Remarks",
-      desc: "Opening Remarks by Ms. Renu Singh",
+      desc: "Opening Remarks by Ms. Rainu Singh",
     },
     {
       time: "09:02 – 09:05 AM",
@@ -17,7 +17,7 @@ const Schedule = () => {
     {
       time: "09:05 – 09:10 AM",
       title: "Lamp Lighting & Prayer",
-      desc: "Lamp lighting by Mr. Gajendra Singh, Pt. Vishwa Mohan Bhatt, Ms. Apra Kuchhal, Mr. Sandeep Sethi, Ms. Renu Singh.",
+      desc: "Lamp lighting by Mr. Gajendra Singh, Pt. Vishwa Mohan Bhatt, Ms. Apra Kuchhal, Mr. Sandeep Sethi, Ms. Rainu Singh.",
     },
     {
       time: "09:10 – 09:20 AM",
@@ -49,7 +49,7 @@ const Schedule = () => {
     {
       time: "09:00 – 09:02 AM",
       title: "Introductory Remarks",
-      desc: "Opening Remarks by Ms. Renu Singh",
+      desc: "Opening Remarks by Ms. Rainu Singh",
     },
     {
       time: "09:02 – 09:05 AM",
@@ -79,7 +79,7 @@ const Schedule = () => {
     {
       time: "10:30 – 10:40 AM",
       title: "Lamp Lighting",
-      desc: "Lamp lighting by Mr. Gajendra Singh, Pt. Vishwa Mohan Bhatt, Ms. Apra Kuchhal, Mr. Sandeep Sethi, Ms. Renu Singh.",
+      desc: "Lamp lighting by Mr. Gajendra Singh, Pt. Vishwa Mohan Bhatt, Ms. Apra Kuchhal, Mr. Sandeep Sethi, Ms. Rainu Singh.",
     },
     {
       time: "10:40 – 10:45 AM",
@@ -195,13 +195,13 @@ const Schedule = () => {
         }
       `}</style>
 
-      <h2 className="schedule-heading">Schedule – 18Th & 19Th November 2025 </h2>
+      <h2 className="schedule-heading">Schedule – 18th & 19th November 2025 </h2>
 
       <div className="schedule-wrapper">
 
         {/* LEFT SIDE */}
         <div className="column">
-          <h3 className="day-heading">18 November</h3>
+          <h3 className="day-heading">18th November</h3>
 
           {leftData.map((item, index) => (
             <div className="event-box" key={index}>
@@ -217,7 +217,7 @@ const Schedule = () => {
 
         {/* RIGHT SIDE */}
         <div className="column">
-          <h3 className="day-heading">19 November</h3>
+          <h3 className="day-heading">19th November</h3>
 
           {rightData.map((item, index) => (
             <div className="event-box" key={index}>
