@@ -67,7 +67,7 @@ const Herosection = () => {
       <div className="hero-container">
 
         <img
-          src="/assets/image123.JPG"
+          src="/assets/image123.jpg"
           alt="Hero Background"
           className="hero-bg-img"
         />
