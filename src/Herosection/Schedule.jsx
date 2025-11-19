@@ -8,8 +8,8 @@ const Schedule = () => {
     },
     {
       time: "08:45 – 09:00 AM",
-      title: "Inaugural Session",
-      desc: "Students settle down inside the auditorium. The heads of each school will ensure that students are seated quietly.",
+      title: "Registration & Tea",
+      // desc: "Students settle down inside the auditorium. The heads of each school will ensure that students are seated quietly.",
     },
     {
       time: "09:00 – 09:02 AM",
@@ -214,7 +214,7 @@ const Schedule = () => {
         }
       `}</style>
 
-      <h2 className="schedule-heading">Reporting Time</h2>
+      <h2 className="schedule-heading">Schedule 18Th to 19Th November </h2>
 
       <div className="schedule-wrapper">
 
