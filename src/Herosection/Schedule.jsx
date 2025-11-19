@@ -65,7 +65,7 @@ const Schedule = () => {
     },
     {
       time: "08:45 – 09:00 AM",
-      title: "Auditorium",
+      title: "Registration & Tea",
       desc: "Students settle down inside the auditorium. The heads of each school will ensure that students are seated quietly.",
     },
     {
