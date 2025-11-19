@@ -32,7 +32,7 @@ const Schedule = () => {
       {
       time: "10:20 – 11:00 AM",
       title: "Panel Discussion",
-      desc: "“Stress, Pressure, and Expectations: Finding a Healthy Balance in School Life” Panelist Ms. Prerna Sahani She completed her doctorate in Emotional Intelligence. She is currently the Executive Editor in Dainik Bhaskar and also the vertical head of City Bhaskar pan India,  Ms.Apra Kuchhal- Chairperson We Care & Festival Convenor Ms. Urvashi Warman - Principal, Palace School Dr. Swapna Chandra , Cultural CoordinatorMr. Sandeep Sethi Ms. Rainu Singh StudentsOpening remarks by Mr. Sandeep Sethi",
+      desc: "“Stress, Pressure, and Expectations: Finding a Healthy Balance in School Life” Panelist Ms. Prerna Sahani She completed her doctorate in Emotional Intelligence. She is currently the Executive Editor in Dainik Bhaskar and also the vertical head of City Bhaskar pan India,  Ms.Apra Kuchhal- Chairperson We Care & Festival Convenor Ms. Urvashi Warman - Principal, Palace School Dr. Swapna Chandra , Cultural Coordinator Mr.Sandeep Sethi Ms.Rainu Singh Students Opening remarks by Mr.Sandeep Sethi",
     },
     {
       time: "11:15 – 12:15 PM",
