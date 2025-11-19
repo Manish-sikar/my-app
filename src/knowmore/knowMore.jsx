@@ -75,8 +75,7 @@ const KnowMore = () => {
           </p>
 
           <p>
-            This initiative is supported by Petronet LNG, National Health Mission (Rajasthan), and 
-            We Care—making it a strong collaborative effort focused on holistic community development.
+            A CSR initiative of Petronet LNG in association with the National Health Mission (Rajasthan) and We Care
           </p>
 
 
