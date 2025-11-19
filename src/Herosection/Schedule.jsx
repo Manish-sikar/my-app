@@ -14,12 +14,12 @@ const Schedule = () => {
     },
     {
       time: "09:00 – 09:02 AM",
-      title: "Opening Remarks",
+      title: "Introductory",
       desc: "Opening Remarks by Ms.Renu Singh",
     },
     {
       time: "09:02 – 09:05 AM",
-      title: "About (Saanjhi)",
+      title: "Opening Remarks",
       desc: "Ms.Apra Kuchhal , Mr.Sandeep Sethi , shares about Saanjhi – The Mental Health Festival",
     },
     {
@@ -30,22 +30,22 @@ const Schedule = () => {
     {
       time: "09:10 – 09:20 AM",
       title: "Stage Performance",
-      desc: "Registration on mental health and well-being for students of IIS School, Sitapura",
+      desc: "Registration on mental health and well-being for students of IIS School, Sitapura,
     },
     {
       time: "09:20 – 09:50 AM",
       title: "Panel Discussion",
-      desc: "Panel Discussion - Opening remarks by Sandeep Sethi Sir",
+      desc: "Panel Discussion - Opening remarks by Mr.Sandeep Sethi,
     },
     {
       time: "10:00 – 11:00 AM",
       title: "Motivational Talk",
-      desc: 'Talk by Mr. Ashwin Sanghi – “Power of Failure"',
+      desc: 'Talk by Mr. Ashwin Sanghi – “Power of Failure,
     },
     {
       time: "11:15 – 12:15 PM",
       title: "Stress & Anxiety Management",
-      desc: "Session on “Tools to Manage Stress & Anxiety” by Ms. Riri Trivedi",
+      desc: "Session on “Tools to Manage Stress & Anxiety” by Ms. Riri Trivedi,
     },
     {
       time: "12:20 PM",
@@ -62,7 +62,7 @@ const Schedule = () => {
   const rightData = [
     {
       time: "08:30 – 08:45 AM",
-      title: "Welcome, Tea & Registration",
+      title: "Welcome Tea & Registration",
       // desc: "Students report at the Registration Desk at the RIC Centre, outside Mini Audi 2.",
     },
     {
@@ -77,8 +77,8 @@ const Schedule = () => {
     },
     {
       time: "09:02 – 09:05 AM",
-      title: "About Saanjhi",
-      desc: "Ms.Apra Kuchhal, Mr.Sandeep Sethi , shares about Saanjhi – The Mental Health Festival",
+      title: "About",
+      desc: "Ms.Apra Kuchhal, shares about Saanjhi – The Mental Health Festival",
     },
     {
       time: "09:05 – 09:10 AM",
