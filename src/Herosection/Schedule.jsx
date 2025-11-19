@@ -12,96 +12,114 @@ const Schedule = () => {
     {
       time: "09:02 – 09:05 AM",
       title: "Opening Remarks",
-      desc: "Ms. Apra Kuchhal shares about Saanjhi – The Mental Health Festival",
+      desc: "Apra Kuchhal shares about Saanjhi – The Mental Health Festival",
     },
     {
       time: "09:05 – 09:10 AM",
       title: "Lamp Lighting & Prayer",
-      desc: "Lamp lighting by Mr. Gajendra Singh, Pt. Vishwa Mohan Bhatt, Ms. Apra Kuchhal, Mr. Sandeep Sethi, Ms. Rainu Singh.",
+      desc: "Lamp lighting by Mr. Ashwin Sanghi,Ms. Riri Trivedi, Ms. Rainu Singh, Mr. Sandeep Sethi.Prayer by students of IIS School.",
     },
     {
       time: "09:10 – 09:20 AM",
-      title: "Stage Performance",
-      desc: "Registration on mental health and well-being for students of IIS School, Sitapura",
+      title: "Skit Performance ",
+      desc: "Skit by students of Palace School",
     },
     {
-      time: "09:20 – 09:50 AM",
-      title: "Panel Discussion",
-      desc: "Panel Discussion - Opening remarks by Mr. Sandeep Sethi",
-    },
-    {
-      time: "10:00 – 11:00 AM",
+      time: "09:20 – 10:20 AM",
       title: "Motivational Talk",
-      desc: "Talk by Mr. Ashwin Sanghi – “Power of Failure”",
+      desc: "A talk by Mr. Ashwin Sanghi – “Power of Failure”",
+    },
+      {
+      time: "10:20 – 11:00 AM",
+      title: "Panel Discussion",
+      desc: "“Stress, Pressure, and Expectations: Finding a Healthy Balance in School Life” Panelist Ms. Prerna Sahani She completed her doctorate in Emotional Intelligence. She is currently the Executive Editor in Dainik Bhaskar and also the vertical head of City Bhaskar pan India,  Ms.Apra Kuchhal- Chairperson We Care & Festival Convenor Ms. Urvashi Warman - Principal, Palace School Dr. Swapna Chandra , Cultural CoordinatorMr. Sandeep Sethi Ms. Rainu Singh StudentsOpening remarks by Mr. Sandeep Sethi",
     },
     {
       time: "11:15 – 12:15 PM",
-      title: "Stress & Anxiety Management",
-      desc: "Session on “Tools to Manage Stress & Anxiety” by Ms. Riri Trivedi",
+      title: "Session",
+      desc: " A Session on “Tools to Manage Stress & Anxiety” by Ms. Riri Trivedi",
     },
-    { time: "12:20 PM", title: "Concluding Remarks", desc: "Concluding Remarks" },
+    { time: "12:20 PM", title: "Concluding Remarks", desc: "Concluding Remarks by Ms.Rainu Singh." },
     { time: "12:30 PM", title: "Departure", desc: "Departure of students" },
   ];
 
   const rightData = [
-    { time: "08:30 – 08:45 AM", title: "Reporting Time" },
-    { time: "08:45 – 09:00 AM", title: "Registration & Tea" },
+    { time: "08:30 – 08:45 AM", title: "Registration & Tea", desc: "Students report at the Registration Desk at the RIC Centre, outside Mini Audi 2."},
+    { time: "08:45 – 09:00 AM", title: "A Film by NCERT on Mental Health " },
     {
       time: "09:00 – 09:02 AM",
       title: "Introductory Remarks",
-      desc: "Opening Remarks by Ms. Rainu Singh",
+      desc: "Opening Remarks by Ms. Rainu Singh.",
     },
     {
       time: "09:02 – 09:05 AM",
       title: "Opening Remarks",
-      desc: "Ms. Apra Kuchhal shares about Saanjhi – The Mental Health Festival",
+      desc: "Ms. Apra Kuchhal shares about Saanjhi – The Mental Health Festival.",
     },
+    
     {
-      time: "09:05 – 09:10 AM",
-      title: "Song Performance",
-      desc: "Song by students of Bhavan’s School",
-    },
-    {
-      time: "09:10 – 09:20 AM",
+      time: "09:05 – 09:15 AM",
       title: "Orchestra Performance",
-      desc: "Orchestra performance by Palace School",
+      desc: "Orchestra by students of Tagore International School.",
     },
     {
-      time: "09:20 – 09:27 AM",
+      time: "09:15 – 09:20 AM",
       title: "Dance Performance",
-      desc: "Dance performance by students of Palace School (Tagore Wing)",
+      desc: "Dance performance by Palace School.",
     },
     {
-      time: "09:30 – 10:30 AM",
-      title: "Special Performance",
-      desc: "Performance by Black Prince",
+      time: "09:20 – 09:25 AM",
+      title: "Mental Health Speech",
+      desc: "Speech on Mental Health by Students of IIS School",
     },
     {
-      time: "10:30 – 10:40 AM",
+      time: "09:25 – 09:30 AM",
+      title: "Song Performance",
+      desc: "Song by Bhavan’s Munshi Marg ",
+    },
+    
+    {
+      time: "09:30 – 09:35 AM",
+      title: "Song Performance",
+      desc: "Song by IIS School ",
+    },
+
+    {
+      time: "09:35 AM – 09:40 AM",
+      title: "Song Performance",
+      desc: "Song by Bhavan’s Pratap Nagar School",
+    },
+    {
+      time: "09:40 – 09:45 AM",
       title: "Lamp Lighting",
-      desc: "Lamp lighting by Mr. Gajendra Singh, Pt. Vishwa Mohan Bhatt, Ms. Apra Kuchhal, Mr. Sandeep Sethi, Ms. Rainu Singh.",
+      desc: "Lamp Lighting & Prayer Mr.Sandeep Sethi ⁠Mr.Rajnish singhvi Ms.Rainu Singh Ms. Apra Kuchhal Prayer by Ms.Geeta from MGD School",
     },
-    {
-      time: "10:40 – 10:45 AM",
+      {
+      time: "09:45 AM – 09:50 AM",
       title: "Song Performance",
-      desc: "Song by IIS School",
+      desc: "Song Performance by MGD School.",
     },
     {
-      time: "10:45 – 11:30 AM",
-      title: "Musical Talk",
-      desc: "Talk by Pandit Vishwa Mohan Bhatt on “The Creation of a Tune - Samanvay”, followed by a demonstration",
+      time: "10:00 – 11:00 AM",
+      title: "Talk & Performance ",
+      desc: "Talk by Pandit Vishwa Mohan Bhatt on “The Creation of a Tune-Samanvay”, followed by performance.",
     },
-    {
-      time: "11:30 – 11:40 AM",
-      title: "Stage Performance",
-      desc: "Registration on mental health and well-being for students of IIS School, Sitapura",
+     {
+      time: "11:00 – 11:10 AM",
+      title: "Address by T. Shubhmangla",
+      desc: "Address by T Shubhmangla,Additional Mission Director of the National Health Mission.",
     },
-    {
-      time: "11:50 AM – 12:00 Noon",
+       {
+      time: "11:10 AM – 12:15 PM",
       title: "Song Performance",
-      desc: "Song by IIS, Shipra Path",
+      desc: "Sing the Stress Away- Musical Performance by Black Prince.",
     },
-    { time: "12:30 PM", title: "Departure", desc: "Departure of Students" },
+       {
+      time: "12:20 AM – 12:25 PM",
+      title: "Closing Remarks by Ms. Rainu Singh ",
+      // desc: "Sing the Stress Away- Musical Performance by Black Prince.",
+    },
+    { time: "12:30 PM", title: "Departure", desc: "Departure of Students." },
   ];
 
   return (
