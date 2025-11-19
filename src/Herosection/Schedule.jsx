@@ -195,7 +195,7 @@ const Schedule = () => {
         }
       `}</style>
 
-      <h2 className="schedule-heading">Schedule – 18Th & 19Th November 2025</h2>
+      <h2 className="schedule-heading">Schedule – 18Th & 19Th November 2025 </h2>
 
       <div className="schedule-wrapper">
 
