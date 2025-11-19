@@ -44,7 +44,7 @@ const Schedule = () => {
   ];
 
   const rightData = [
-    { time: "08:30 – 08:45 AM", title: "Welcome Tea & Registration" },
+    { time: "08:30 – 08:45 AM", title: "Reporting Time" },
     { time: "08:45 – 09:00 AM", title: "Registration & Tea" },
     {
       time: "09:00 – 09:02 AM",
