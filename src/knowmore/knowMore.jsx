@@ -75,7 +75,7 @@ const KnowMore = () => {
           </p>
 
           <p>
-            A CSR initiative of Petronet LNG in association with the National Health Mission (Rajasthan) and We Care
+            A CSR initiatives of Petronet LNG in association with the National Health Mission (Rajasthan) and We Care
           </p>
 
 
